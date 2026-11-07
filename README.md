@@ -60,6 +60,10 @@ python benchmark.py --mode live --runs 3 --output reports/live-benchmark.json
 
 CI uses only offline fixtures. Tests check exactly-once stage execution, complete fan-in, malformed output, failed providers and upload limits. Offline timing measures graph overhead, not LLM latency or answer quality. The optional live benchmark reports latency and token usage on one sample; it is not a broad quality score. See [evaluation protocol](EVALUATION.md) for a repeatable quality review before making stronger claims.
 
+## Recorded offline run
+
+[The executed report](reports/offline-workflow.json) records all five stages exactly once in each of ten runs. Median graph time was 2.93 ms and nearest-rank p95 was 281.87 ms, including first-call import/initialization overhead. With only ten samples, p95 is the maximum. These timings use fixed responses and exclude AI inference; they are not advertised as live-agent latency.
+
 ## Scope and provenance
 
 This is a local prototype. It has no multi-user authentication, durable job queue or verified business-impact measurement. The original experiment is preserved in [a notebook](notebooks/original_experiment.ipynb) with credentials removed. Credentials belong in environment variables and are ignored by Git. See [validation](VALIDATION.md).

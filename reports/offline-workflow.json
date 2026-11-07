@@ -1,0 +1,306 @@
+{
+  "provenance": {
+    "repository": "Almizan-khan/insightweaver-agent",
+    "commit": "8bbcce3e81747abdb52f03268f61ed623cdf0a21",
+    "workflow_run": "https://github.com/Almizan-khan/insightweaver-agent/actions/runs/42401791998",
+    "job_id": 128490962239,
+    "date": "2026-11-07",
+    "source": "Executed GitHub Actions job log"
+  },
+  "tests": "Ran 6 tests in 0.589s",
+  "result": {
+    "mode": "offline",
+    "scope": "workflow overhead with fixed offline responses; not LLM quality or latency",
+    "runs": 10,
+    "median_seconds": 0.002931811499998105,
+    "p95_seconds": 0.2818665799999991,
+    "node_counts": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "events": [
+      [
+        {
+          "node": "feedback",
+          "seconds": 0.000027629000001638815,
+          "usage": {}
+        },
+        {
+          "node": "sales",
+          "seconds": 0.000011256000000514632,
+          "usage": {}
+        },
+        {
+          "node": "insights",
+          "seconds": 0.000017405000001247117,
+          "usage": {}
+        },
+        {
+          "node": "email",
+          "seconds": 0.000017444999997451305,
+          "usage": {}
+        },
+        {
+          "node": "marketing",
+          "seconds": 0.000010425000006364371,
+          "usage": {}
+        }
+      ],
+      [
+        {
+          "node": "feedback",
+          "seconds": 0.000012888000000543798,
+          "usage": {}
+        },
+        {
+          "node": "sales",
+          "seconds": 0.000005768000001182827,
+          "usage": {}
+        },
+        {
+          "node": "insights",
+          "seconds": 0.000012436999995202314,
+          "usage": {}
+        },
+        {
+          "node": "email",
+          "seconds": 0.0000071910000016828235,
+          "usage": {}
+        },
+        {
+          "node": "marketing",
+          "seconds": 0.00000620899999859148,
+          "usage": {}
+        }
+      ],
+      [
+        {
+          "node": "feedback",
+          "seconds": 0.000007641000003388854,
+          "usage": {}
+        },
+        {
+          "node": "sales",
+          "seconds": 0.000005848999997226656,
+          "usage": {}
+        },
+        {
+          "node": "insights",
+          "seconds": 0.000011245999999687228,
+          "usage": {}
+        },
+        {
+          "node": "email",
+          "seconds": 0.000005366999999978361,
+          "usage": {}
+        },
+        {
+          "node": "marketing",
+          "seconds": 0.00000498699999695873,
+          "usage": {}
+        }
+      ],
+      [
+        {
+          "node": "feedback",
+          "seconds": 0.0000068599999991647564,
+          "usage": {}
+        },
+        {
+          "node": "sales",
+          "seconds": 0.000004916999998272331,
+          "usage": {}
+        },
+        {
+          "node": "insights",
+          "seconds": 0.000011326999995731057,
+          "usage": {}
+        },
+        {
+          "node": "email",
+          "seconds": 0.000004897000003722951,
+          "usage": {}
+        },
+        {
+          "node": "marketing",
+          "seconds": 0.000005288000004100013,
+          "usage": {}
+        }
+      ],
+      [
+        {
+          "node": "feedback",
+          "seconds": 0.000006728999998983909,
+          "usage": {}
+        },
+        {
+          "node": "sales",
+          "seconds": 0.000004656999998076117,
+          "usage": {}
+        },
+        {
+          "node": "insights",
+          "seconds": 0.000011616999998409483,
+          "usage": {}
+        },
+        {
+          "node": "email",
+          "seconds": 0.000004566999997734911,
+          "usage": {}
+        },
+        {
+          "node": "marketing",
+          "seconds": 0.000004947000000754542,
+          "usage": {}
+        }
+      ],
+      [
+        {
+          "node": "feedback",
+          "seconds": 0.000008141999998656502,
+          "usage": {}
+        },
+        {
+          "node": "sales",
+          "seconds": 0.000005357000006256385,
+          "usage": {}
+        },
+        {
+          "node": "insights",
+          "seconds": 0.00001076499999896896,
+          "usage": {}
+        },
+        {
+          "node": "email",
+          "seconds": 0.000004976999996131326,
+          "usage": {}
+        },
+        {
+          "node": "marketing",
+          "seconds": 0.000005338000001131604,
+          "usage": {}
+        }
+      ],
+      [
+        {
+          "node": "feedback",
+          "seconds": 0.000007441000001051634,
+          "usage": {}
+        },
+        {
+          "node": "sales",
+          "seconds": 0.000005287000000464559,
+          "usage": {}
+        },
+        {
+          "node": "insights",
+          "seconds": 0.000011065999999004816,
+          "usage": {}
+        },
+        {
+          "node": "email",
+          "seconds": 0.000005057999999280582,
+          "usage": {}
+        },
+        {
+          "node": "marketing",
+          "seconds": 0.0000050070000057189645,
+          "usage": {}
+        }
+      ],
+      [
+        {
+          "node": "feedback",
+          "seconds": 0.000010254999999403935,
+          "usage": {}
+        },
+        {
+          "node": "sales",
+          "seconds": 0.000006057999996755825,
+          "usage": {}
+        },
+        {
+          "node": "insights",
+          "seconds": 0.000011796999999091895,
+          "usage": {}
+        },
+        {
+          "node": "email",
+          "seconds": 0.000005198000003758807,
+          "usage": {}
+        },
+        {
+          "node": "marketing",
+          "seconds": 0.000005168000001276596,
+          "usage": {}
+        }
+      ],
+      [
+        {
+          "node": "feedback",
+          "seconds": 0.000008180999998330662,
+          "usage": {}
+        },
+        {
+          "node": "sales",
+          "seconds": 0.0000049369999999271386,
+          "usage": {}
+        },
+        {
+          "node": "insights",
+          "seconds": 0.00001084500000558819,
+          "usage": {}
+        },
+        {
+          "node": "email",
+          "seconds": 0.000005457999996849594,
+          "usage": {}
+        },
+        {
+          "node": "marketing",
+          "seconds": 0.00000486700000124074,
+          "usage": {}
+        }
+      ],
+      [
+        {
+          "node": "feedback",
+          "seconds": 0.000006438999996305483,
+          "usage": {}
+        },
+        {
+          "node": "sales",
+          "seconds": 0.000004666000002373494,
+          "usage": {}
+        },
+        {
+          "node": "insights",
+          "seconds": 0.000010666000001435805,
+          "usage": {}
+        },
+        {
+          "node": "email",
+          "seconds": 0.000004896999996617524,
+          "usage": {}
+        },
+        {
+          "node": "marketing",
+          "seconds": 0.000004745999994781869,
+          "usage": {}
+        }
+      ]
+    ],
+    "environment": {
+      "python": "3.11.18",
+      "platform": "Linux-7.0.0-1019-azure-x86_64-with-glibc2.43"
+    }
+  }
+}
