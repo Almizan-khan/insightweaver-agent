@@ -1,0 +1,48 @@
+{
+  "feedback": {
+    "summary": "Users report save failures and navigation friction while praising support and dark mode.",
+    "pain_points": [
+      "Save failures",
+      "Confusing navigation"
+    ],
+    "praise": [
+      "Responsive support",
+      "Dark mode"
+    ]
+  },
+  "sales": {
+    "summary": "Product A declined while Product B grew; Product C is new.",
+    "observations": [
+      "Product A sales are $150000 and down 10%",
+      "Product B sales are $200000 and up 5%"
+    ],
+    "uncertainties": [
+      "No causal evidence connects the update to retention",
+      "Reporting period and sample size are missing"
+    ]
+  },
+  "insights": {
+    "key_issues": [
+      "Investigate document-save failures"
+    ],
+    "opportunities": [
+      "Interview users about navigation"
+    ],
+    "customer_behavior_profile": "Feedback suggests usability friction; the sample does not establish a population profile."
+  },
+  "email": {
+    "subject": "Following up on your product feedback",
+    "body": "Thank you for reporting the save and navigation issues. We would like to understand the steps that led to the problem. Your feedback will help us prioritize investigation."
+  },
+  "marketing": {
+    "campaign_ideas": [
+      "Demonstrate the existing dark-mode feature"
+    ],
+    "content_hooks": [
+      "A guide to the updated navigation"
+    ],
+    "product_improvements": [
+      "Reproduce save failures before claiming a fix"
+    ]
+  }
+}
