@@ -24,8 +24,8 @@ graph TD
 !pip install langchain-openai
 
 import os
-os.environ["OPENAI_API_KEY"] = ""
-os.environ["TAVILY_API_KEY"] = "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"
+
+
 
 import os
 from typing import TypedDict, Annotated , List
